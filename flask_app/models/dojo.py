@@ -36,6 +36,7 @@ class Dojo:
                 "first_name" : row_from_db["first_name"],
                 "last_name" : row_from_db["last_name"],
                 "age" : row_from_db["age"],
+                "dojos_id" : row_from_db["dojos_id"],
                 "created_at" : row_from_db["ninjas.created_at"],
                 "updated_at" : row_from_db["ninjas.updated_at"]
             }

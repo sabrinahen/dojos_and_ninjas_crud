@@ -22,6 +22,7 @@ def create_dojo():
 
 @app.route('/dojos/<int:id>')
 def show(id):
+    print(id)
     data ={ 
         "id":id
     }

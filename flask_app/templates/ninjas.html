@@ -11,8 +11,8 @@
     <form action="/ninja/new" method="post">
         <div>
             <select name="dojo_id">
-                {% for ninja in ninjas %}
-                <option value="{dojo.id}">{{ dojo.name }}</option>
+                {% for dojo in dojos %}
+                <option value="{{dojo.id}}">{{ dojo.name }}</option>
                 {% endfor %}
             </select>
         </div>
